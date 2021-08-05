@@ -3,7 +3,7 @@
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
     © 2021 Copyright:
-    <a class="text-dark" href="index.php">The Small Shop</a>
+    <a class="text-dark" href="index.php"><?php echo $sitename; ?></a>
   </div>
   <!-- Copyright -->
 </footer>

@@ -1,8 +1,9 @@
 <?php
 session_start();
+require "classes/Connection.php";
 require "partials/header.php";
 require "partials/navbar.php";
-require "classes/Connection.php";
+
 
 $db=Connection::connect();
 
